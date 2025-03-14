@@ -1,0 +1,153 @@
+if taks:
+
+1.Check Divisibility:
+â€¢	Take a number and check if it is divisible by both 3 and 5.
+
+2.Simple Login System:
+â€¢	Ask the user for a username and password.
+â€¢	If the username is "admin" and the password is "12345", display "Login Successful".
+â€¢	Otherwise, display "Invalid Credentials".
+
+3.Discount System:
+â€¢	If a customer spends:
+o	â‚¹5000+, give a 20% discount.
+o	â‚¹2000 - â‚¹4999, give a 10% discount.
+o	Less than â‚¹2000, no discount.
+â€¢	Calculate the final price after applying the discount.
+
+Grading System: Write a program that takes a student's score as input and prints out their grade according to the following criteria:
+
+A: 90-100
+B: 80-89
+C: 70-79
+D: 60-69
+F: 0-59
+
+
+BMI Calculator: Build a BMI (Body Mass Index) calculator program that takes a person's weight (in kilograms) and height (in meters) as input and categorizes them as underweight, normal weight, overweight, or obese.
+
+
+Ticket Price Calculator: Create a program that calculates the ticket price for a movie based on the age of the viewer. Consider different pricing for children, adults,
+ and seniors.
+
+
+
+while loop:
+Print Numbers: Write a program that prints numbers from 1 to 10 using a while loop.
+
+Even Numbers: Print all even numbers from 2 to 20 using a while loop.
+
+Sum of Numbers: Calculate the sum of numbers from 1 to N using a while loop.
+
+Countdown Timer: Print numbers from 10 to 1 in reverse order.
+
+Multiplication Table: Ask the user for a number and print its multiplication table up to 10 using a while loop.
+
+
+
+Array task:
+
+Array Tasks:
+1.Description: Given an array of strings, filter out the strings that contain the letter 'a' and transform the remaining strings to uppercase. 
+
+2.Description: Given an array of full names, extract the initials of each name. 
+3.Find the Longest Word
+Description: Given a sentence, find the longest word in the sentence. 
+
+4.Count Occurrences of Each Character
+Description: Given a string, count the occurrences of each character. 
+
+5.Remove Duplicates from an Array of Strings
+Description: Given an array of strings, remove duplicate values. 
+
+6.Capitalize Each Word in a Sentence
+Description: Given a sentence, capitalize the first letter of each word. 
+JavaScript
+
+7.Reverse Words in a Sentence
+Description: Given a sentence, reverse the order of words. 	
+
+
+
+object:
+
+1.Create a Student Object
+
+Create an object that stores a student's details (name, age, grade, and favorite subject).
+Display each property in the console.
+
+
+2.Update Object Properties
+
+Create a car object with properties like brand, model, and year.
+Update the model and year properties dynamically.
+Display the updated details.
+
+
+3.Loop Through an Array of Movie Objects
+
+Create an array of movie objects, each containing a title and rating.
+Use a loop to display the list of movies with their ratings in a formatted output.
+
+
+4.Add Methods to an Object
+
+Create an object for a rectangle with length and width properties.
+Add a method to calculate and return the area of the rectangle.
+Display the area in the console.
+
+5.Count Object Properties
+
+Create an object representing an animal with various properties (name, habitat, diet, etc.).
+Write a function to count and display the total number of properties in the object.
+
+
+6.Filter Objects Based on a Condition
+
+Create an array of product objects with properties like name, price, and availability status.
+Filter out and display only the available products using a loop or array method.
+
+
+7.Create a Contact Book Using Objects
+
+Create an array of contact objects with name, phone number, and email properties.
+Write a function to search for a contact by name and display their details.
+
+8.Sort an Array of Objects
+
+Create an array of book objects with properties like title and number of pages.
+Sort the books in ascending order based on the number of pages and display the sorted list.
+
+9.Group Objects by Category
+
+Create an array of employee objects with properties like name, department, and salary.
+Group employees by their department and display each group separately. 
+
+
+String object:
+
+
+String Object:
+1.	Convert a String to Title Case
+Write a function that capitalizes the first letter of every word.
+
+Convert a String to Uppercase and Lowercase
+ðŸ”¹ Description:
+Write a function that takes a string and returns both its uppercase and lowercase versions.
+
+Count the Number of Words in a String
+ðŸ”¹ Description:
+Write a function that counts how many words are in a given string. A word is considered a sequence of characters separated by spaces.
+
+Extract a Substring from a String
+ðŸ”¹ Description:
+Write a function that extracts a substring from a given string based on the starting index and length.
+
+Highlight a Substring in a String
+ðŸ”¹ Description:
+Write a function that highlights a given substring in a string by surrounding it with **.
+
+
+Reverse a String
+ðŸ”¹ Description:
+Write a function that reverses a given string.

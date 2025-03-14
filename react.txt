@@ -1,0 +1,55 @@
+import React from 'react'
+import EmployeeChild from './EmployeeChild'
+
+function EmployeeProps() {
+    let employee = {name:"employee1", salary:20000, empid:123}
+    let emp2 = {name:"emp2",salary:25000, empid:124}
+  return (
+    <div>EmployeeProps
+        <EmployeeChild e={employee} e2={emp2} />
+        
+    </div>
+  )
+}
+
+
+export default EmployeeProps
+
+
+
+
+import React from 'react'
+import EmployeeChild2 from './EmployeeChild2';
+
+function EmployeeChild(props) {
+    // function EmployeeChild({e,e2}) {
+    console.log(props);
+    
+  return (
+    <div>EmployeeChild
+        <h1>{props.e.empid}</h1>
+        <h1>{props.e.name}</h1>
+        <h1>{props.e.salary}</h1>
+        <h2>{props.e2.name}</h2>
+        <EmployeeChild2  e2={props.e2.salary} />
+    </div>
+  )
+}
+
+export default EmployeeChild
+
+
+
+import React from 'react'
+
+function EmployeeChild2({e2}) {
+    console.log(e2);
+    
+  return (
+    <div>EmployeeChild2
+        <h2>salary-{e2}</h2>
+    </div>
+  )
+}
+
+export default EmployeeChild2

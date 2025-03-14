@@ -1,0 +1,67 @@
+import React, { useState } from 'react'
+
+function Calcul () {
+    const [num, setNum] = useState()
+    const [msg, setmsg] = useState()
+    const [weight,setWeight] = useState();
+    const [height,setHeight] = useState();
+    const [bmi,setbmi] = useState();
+    const [bmiValues,setbmiValues] = useState()
+    function ooe (){
+        if (num % 2 === 0){
+            setmsg('even no is' +num)
+        }else{
+            setmsg('odd' +num)
+        }
+         
+    }
+
+    function Bmi () {
+
+        let h = height/100
+        let bmi = weight/(h*h)
+        setbmiValues(bmi.toFixed(2));
+        console.log(bmi);
+        
+        
+         if (bmi < 18.5 ) {
+            // bmiValues = bmi;
+           setbmi("Underweight");
+           
+       } else if (bmi >= 18.5 && bmi < 24.9 ) {
+        // bmiValues = bmi;
+           setbmi("Normal weight");
+           
+       } else if (bmi >= 25 && bmi < 29.9 ) {
+        // bmiValues = bmi;
+           setbmi("Overweight");
+           
+       } else {
+           setbmi("Obese");
+           
+       }
+    }
+  return (
+    <div>Calcul
+      <h1>{num}</h1>  
+      <input type = 'text' onChange={(e) => setNum(e.target.value)} />
+      <button onClick={ooe}>click</button>
+      <h2>The number is : {msg}</h2>
+      <input type = 'text' onChange={(e) => setWeight(e.target.value)}/>
+      <input type = 'text' onChange={(e) => setHeight(e.target.value)}/>
+      <button onClick={Bmi}>click</button>
+      <h2>Your weight :{bmi}</h2>
+      {bmiValues && (
+        <div>
+            <h2>bmi value : {bmiValues}</h2>
+            </div>
+      )
+
+
+      }
+    </div>
+    
+  )
+}
+
+export default Calcul

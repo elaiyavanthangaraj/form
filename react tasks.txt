@@ -1,0 +1,27 @@
+//1.Simple Interest Calculator Task
+//  Task:
+//  Write a program to calculate Simple Interest using the formula:
+ 
+//  SI = PTR/100
+//  â€‹
+  
+//  where:
+ 
+//  P = Principal Amount (Initial Money)
+//  R = Rate of Interest (Percentage per Year)
+//  T = Time (Years)
+
+
+//2. Area of Circle:
+// Task:
+// Write a Program to calculate area of circle
+
+
+// 4.Discount Price Calculator ðŸ›ï¸
+// ðŸ”¹ Task:
+// Create a program that calculates the final price after applying a discount.
+
+// Take original price and discount percentage as input, then display the final price.
+
+
+..............react tasks................

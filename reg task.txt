@@ -1,0 +1,81 @@
+Regular Expression Tasks
+
+1. Character Classification
+   Write a JavaScript program that takes a single character as input and checks whether it is:  
+   - An uppercase letter  
+   - A lowercase letter  
+   - A digit  
+   - A special character  
+   Use regular expressions to classify the input.
+
+2. Input Filtering
+   Create a program that restricts user input based on specific criteria:  
+   - Allow alphabets only (both uppercase and lowercase).  
+   - Allow numbers only.  
+   - Allow a combination of alphabets and numbers (alphanumeric).  
+   Use regular expressions to validate the input.
+
+3. Data Parsing from Strings
+   Write a JavaScript function to parse and extract specific information from a given text:  
+   - Extract URLs from the text.  
+   - Extract dates in the format `DD/MM/YYYY`.  
+   - Extract mentions (e.g., `@username` on social media platforms).  
+
+
+4. Email Address Validation
+   Write a regular expression to validate email addresses. The pattern should match standard email formats like `user@example.com`, ensuring the following:  
+   - Contains a valid username (letters, numbers, underscores).  
+   - Contains an `@` symbol.  
+   - Has a valid domain name and extension (e.g., `.com`, `.net`).  
+
+5. Date Validation (DD/MM/YYYY)
+   Create a regular expression that validates dates in the format `DD/MM/YYYY`:  
+   - Days must be valid (01-31).  
+   - Months must be valid (01-12).  
+   - Years should be four digits.  
+
+
+6. File Extension Extraction  
+   Write a regular expression to extract file extensions from a list of filenames. For example:  
+   - Input: `"image.png", "document.pdf", "archive.zip"`  
+   - Output: `["png", "pdf", "zip"]`
+
+7.Phone Number Validation
+Create a regular expression to validate phone numbers in different formats
+
+8.Password Strength Validation
+Write a regular expression to validate strong passwords. A strong password should:
+
+Contain at least 8 characters.
+Include at least one uppercase letter.
+Include at least one lowercase letter.
+Contain at least one digit.
+Include at least one special character (e.g., @, #, $).
+
+12457
+
+
+
+
+
+
+
+function character(s) {
+    if (s || s.length ==1[0,9]) {
+        return "Please provide a single character.";
+    }
+    
+    if (/^[A-Z]$/.test(s)) {
+        return "Uppercase Letter";
+    } else if (/^[a-z]$/.test(s)) {
+        return "Lowercase Letter";
+    } else if (/^\d$/.test(s)) {
+        return "Digit";
+    } else {
+        return "Special Character";
+    }
+}
+
+let input2 = ("Enter a single character:");
+console.log(character(input2));
+ 
